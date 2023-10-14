@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+.main1{
+
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: auto; 
+    margin-right: 420px;
+    margin-top: 50px;
+    padding: 35px;
+    width: 35%;
+    height: 350px;
+    /* border-radius: 10px; */
+    /* padding: 20px; */
+}
+.main0>img{
+    width: 50%;
+
+    margin-left: 340px;
+    margin-top: 50px;
+}
+.main2{
+    position: absolute;
+    margin: auto;
+    /* right: 100px; */
+    /* bottom: 100px; */
+    border: 1px solid lightgray;
+    /* margin-right: 208px; */
+    /* padding: 10px; */
+    /* width: 20.4%; */
+    /* margin-bottom: 50px; */
+    text-align: center;
+    width: 21%;
+    list-style-type: none;
+    /* border-radius: 20px; */
+}
+.mainmain{
+    width: 50%;
+}
+.in{
+    width: 100%;
+    height: 30px;
+    padding: 6px;
+    background-color: #FAFAFA;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+@font-face {
+    font-family: Grandista;
+    src: url('/Grandista.ttf');
+}
+.font{
+    font-family: Grandista;
+    font-size: xx-large;
+    padding-top: 1px;
+}
+.login{
+    width: 105%;
+    height: 30px;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.get{
+    position: absolute;
+    bottom: 120px;
+    right: 520px;
+}
+.btn1{
+    
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 50px;
+    right: 560px;
+    
+}
+.btn2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 89px;
+    right: 430px;
+}
+.sign {
+    text-decoration: none;
+    color: #5295F6
+}
+.login1{
+    font-weight: bold;
+    color: #38518D;
+    text-decoration: none;
+}
+.forget{
+    text-decoration: none;
+    color: #737373 ;
+}
+ul>li{
+    font-size: small;
+    display: inline-block;
+    padding: 10px;
+}
+ul{
+    text-align: center;
+}
+li>a{
+    color: #737373;
+    text-decoration: none;
+}
+
+.or{
+    display: flex;
+    justify-content:  space-around;
+    /* display: block; */
+}
+
+/* .line{
+    width: 50px;
+} */
+.or{
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .or:before, .or:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .or:before {
+    margin-right: 10px
+  }
+  .or:after {
+    margin-left: 10px
+  }
